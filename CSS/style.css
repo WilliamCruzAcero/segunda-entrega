@@ -1,0 +1,75 @@
+
+.reserva{
+    background:linear-gradient(rgb(99, 188, 226),rgb(95, 231, 169),rgb(15, 250, 143));
+    padding: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.reserva__titulo h2{
+    color: blue;
+}
+.reserva__titulo p{
+    margin: 30px;
+    text-align: left;
+    padding: auto;
+    color:black;
+    grid-column: 1/2;
+}
+.reserva__info{
+    margin: 30px;
+    padding: auto;
+    color: black;
+    grid-column: 1/3;
+}
+.formulario{
+   
+    padding-top: 100px;
+    background:linear-gradient(rgb(99, 188, 226),rgb(95, 231, 169),rgb(15, 250, 143));
+}
+.registro{
+    width: 500px;
+    background-color: aqua;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family:"calibri";
+    box-shadow: 7px 13px 37px #000;
+}
+.registro h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.registro p{
+    height: 40px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;
+}
+.registro a{
+    color: black;
+    text-decoration: none;
+}
+.registro a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.registro .boton{
+    width: 100%;
+    background-color: rgb(69, 151, 124);
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.control{
+    width: 100%;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: "calibri";
+    font-size: 18px;
+}

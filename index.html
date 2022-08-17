@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    
+    
+</head>
+<body>
+
+    <section class="registro">
+        <form action="" id="formulario">
+            <h2>Formulario registro</h2>
+            <label for="nombre">Nombres:</label>
+            <input type="text" id="nombre" placeholder="Ingrese su Nombre">
+            <div>
+                <p style="color:red;" id="mensaje_nombre"  class="mensaje_error"></p>
+            </div>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" id="apellido" placeholder="Ingrese su Apellido">
+            <div>
+                <p style="color:red;" id="mensaje_apellido" class="mensaje_error"></p>
+            </div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email@email.com">
+            <div>
+                <p style="color:red;" id="mensaje_email"  class="mensaje_error"></p>
+            </div>
+            <label for="nombre">Contraseña:</label>
+            <input type="password" id="password" placeholder="Ingrese su contraseña">
+            <div>
+                <p style="color:red;" id="mensaje_password"  class="mensaje_error"></p>
+            </div>
+            <p>Estoy de acuerdo con Terminos y condiciones. <input type="checkbox" name="terminos" id="terminos"></p>
+            <input type="submit" id="btn" name="btn" value="Registrar">
+            <p><a href="#">¿ya tengo cuenta?</a></p>
+        </form>
+        <div>
+            <p id="mensaje"></p>
+        </div>
+
+    </section>
+
+<script src="./javascript/usuario.js"></script> 
+<script src="./javascript/script.js"></script>  
+</body>
+
+</html>
